@@ -1,6 +1,14 @@
+# Archivo .replit actualizado para ejecutar ocp.Main
+
+# CAMBIO 1: El punto de entrada ahora apunta a la clase Main correcta.
+entrypoint = "src/main/java/ocp/Main.java"
+
+# El comando de compilación está bien, encuentra todos los archivos .java
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* Main"
-entrypoint = "src/main/java/Main.java"
+
+# CAMBIO 2: El comando de ejecución ahora especifica el paquete "ocp.Main".
+run = "java -classpath .:target/dependency/* ocp.Main"
+
 hidden = ["**/*.class"]
 
 [packager]
@@ -56,9 +64,11 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "Main"
+# CAMBIO 3: La clase principal para el debugger también se actualiza.
+mainClass = "ocp.Main"
 
 [deployment]
+# CAMBIO 4: La configuración de despliegue también se corrige.
 build = ["javac", "-classpath", ".:target/dependency/*", "-d", ".", "$(find . -type f -name '*.java')"]
-run = ["java", "-classpath", ".:target/dependency/*", "Main"]
+run = ["java", "-classpath", ".:target/dependency/*", "ocp.Main"]
 deploymentTarget = "cloudrun"
