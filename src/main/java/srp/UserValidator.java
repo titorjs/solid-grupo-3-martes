@@ -1,5 +1,6 @@
-import java.util.regex.Pattern;
+package srp;
 
+import java.util.regex.Pattern;
 
 public class UserValidator {
     public boolean validateUser(String email, String password) {

@@ -1,0 +1,2 @@
+# Reflexión sobre el Dependency Inversion Principle
+Creemos que este principio es súper importante porque ayuda a que el código no esté tan amarrado entre sí. En vez de que una clase dependa directamente de otra, se trabaja con cosas más generales (como interfaces), y eso hace que sea mucho más fácil cambiar o agregar algo nuevo sin romper todo lo demás. Básicamente, hace que el código sea más libre y menos complicado de mantener.

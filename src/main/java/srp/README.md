@@ -1,0 +1,2 @@
+# Reflexión sobre el Single Responsability Principle
+Considermos que este es uno de los principios que más intuitivos e importantes nos parecen, pues la idea de separación de responsabilidades por clases es escencial para evitar que las clases crezcan con rapidez y se vuelvan inmantenibles.

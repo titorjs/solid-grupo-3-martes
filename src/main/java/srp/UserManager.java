@@ -1,3 +1,4 @@
+package srp;
 
 public class UserManager {
     private final UserValidator validator;

@@ -1,0 +1,2 @@
+# Reflexión sobre el Interface Segregation Principle
+Creemos que este principio es súper útil porque ayuda a que las clases no terminen llenas de métodos que no necesitan. Al separar bien las interfaces, cada clase solo se enfoca en lo que realmente hace, lo que hace el código más limpio, fácil de entender y mucho más sencillo de mantener a largo plazo.

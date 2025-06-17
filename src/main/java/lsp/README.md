@@ -1,0 +1,2 @@
+# Reflexión sobre el Liskov Substitution Principle
+Consideramos que este es uno de los principios más esenciales y a la vez confusos por el nombre, ya que busca garantizar que las clases hijas realmente puedan sustituir a sus clases padre sin romper la lógica del sistema. Esto es clave para mantener un diseño coherente y predecible, evitando errores inesperados y asegurando que la jerarquía de clases tenga sentido y se mantenga flexible a futuro.

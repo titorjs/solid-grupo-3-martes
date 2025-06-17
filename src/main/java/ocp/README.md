@@ -1,0 +1,2 @@
+# Reflexión sobre el Open Close Principle
+Consideramos que este es otro de esos principios fundamentales y que más presentes están en el día a día y nos van a evitar muchos dolores de cabeza. No ayuda a mantener el código sostenible.

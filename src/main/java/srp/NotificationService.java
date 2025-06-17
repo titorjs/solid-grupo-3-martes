@@ -1,3 +1,4 @@
+package srp;
 
 public class NotificationService {
     public void sendWelcomeEmail(String email) {
